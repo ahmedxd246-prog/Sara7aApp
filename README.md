@@ -60,9 +60,17 @@ npm install
 🔐 Environment Variables
 Create a .env file:
 PORT=3000
-MONGO_URI=your_mongo_uri
-EMAIL_USER=your_email
-EMAIL_PASS=your_email_password
+DBURL
+ALLOWED_ORIGINS=http://localhost:5000
+NODE_ENV=development
+ACCESS_TOKEN_SECRET_USER
+ACCESS_TOKEN_EXPIRES=1d
+ACCESS_TOKEN_SECRET_ADMIN
+ACCESS_TOKEN_EXPIRES_ADMIN=15m
+ACTIVATE_EMAIL=your email
+ACTIVATE_PASSWORD=password
+EMAIL_VERIFICATION_TOKEN_SECRET
+EMAIL_VERIFICATION_TOKEN_EXPIRES=10m
 
 ▶️ Run the App
 npm run dev
